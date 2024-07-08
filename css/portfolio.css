@@ -11,14 +11,13 @@
 }
 
 body {
-  width: 1600px;
   font-family: "Roboto";
 }
 .container {
   width: 1200px;
-  box-sizing: border-box;
+  outline: solid red;
   padding: 0 15px;
-  margin: 0 200px;
+  margin: 0 auto;
 }
 
 /* HEADER */
@@ -53,9 +52,10 @@ body {
 .active {
   color: var(--blue-color);
 }
-.header-flex {
-  margin-top: 24px;
-  margin-bottom: 25px;
+
+.header {
+  width: 1600px;
+  margin-bottom: 94px;
 }
 
 /* MAIN */
@@ -74,11 +74,7 @@ body {
   color: var(--white-color);
 }
 /* portfolio  */
-.portfolio-flex {
-  display: inline-block;
-  margin-top: 94px;
-  margin-bottom: 94px;
-}
+
 .portfolio-title {
   color: var(--black-color);
 
@@ -95,12 +91,17 @@ body {
   line-height: calc(30px / 16px);
   letter-spacing: 3%;
 }
+.portfolio {
+  width: 1600px;
+  margin-bottom: 94px;
+}
 
 /* FOOTER */
 
 .footer {
   background-color: var(--hero_footer-background);
-  display: inline-block;
+
+  width: 1600px;
 }
 .accent-blue {
   color: var(--blue-color);
@@ -128,8 +129,4 @@ body {
   font-weight: 400;
   line-height: calc(24px / 14px);
   letter-spacing: 3%;
-}
-.footer-flex {
-  margin-top: 60px;
-  margin-bottom: 60px;
 }

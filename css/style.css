@@ -29,7 +29,6 @@ body {
   font-size: 26px;
   font-weight: 700;
   line-height: calc(31 / 26);
-  letter-spacing: 3%;
   color: var(--logo-black);
 }
 .accent-blue {
@@ -45,7 +44,6 @@ body {
   line-height: calc(16 / 14);
   font-size: 14px;
   font-weight: 500;
-  letter-spacing: 2%;
 }
 
 .contact-link {
@@ -53,7 +51,6 @@ body {
   line-height: calc(16 / 14);
   font-size: 14px;
   font-weight: 500;
-  letter-spacing: 2%;
 }
 .active {
   color: var(--blue-color);
@@ -72,7 +69,6 @@ body {
   line-height: calc(60 / 44);
   font-size: 44px;
   font-weight: 900;
-  letter-spacing: 6%;
 }
 
 .hero-btn {
@@ -82,7 +78,6 @@ body {
   font-size: 16px;
   font-weight: 700;
   line-height: calc(30 / 16);
-  letter-spacing: 6%;
   text-align: center;
 }
 /* advantages */
@@ -92,7 +87,6 @@ body {
   font-size: 14px;
   font-weight: 700;
   line-height: calc(16 / 14);
-  letter-spacing: 3%;
 }
 .advantage-subtitle {
   color: var(--grey-color);
@@ -100,7 +94,6 @@ body {
   font-size: 14px;
   font-weight: 400;
   line-height: calc(24 / 14);
-  letter-spacing: 3%;
 }
 .advantage {
   width: 1600px;
@@ -113,7 +106,6 @@ body {
   font-size: 36px;
   font-weight: 700;
   line-height: calc(42 / 36);
-  letter-spacing: 3%;
 }
 
 .about {
@@ -131,7 +123,6 @@ body {
   font-size: 36px;
   font-weight: 700;
   line-height: calc(42 / 36);
-  letter-spacing: 3%;
 }
 .team-subtitle {
   color: var(--black-color);
@@ -139,14 +130,12 @@ body {
   font-size: 16px;
   font-weight: 500;
   line-height: calc(19 / 16);
-  letter-spacing: 3%;
 }
 .team-text {
   color: var(--grey-color);
   font-size: 16px;
   font-weight: 400;
   line-height: calc(19 / 16);
-  letter-spacing: 3%;
 }
 .team-list-item {
   background-color: var(--white-color);
@@ -165,7 +154,6 @@ body {
   font-size: 26px;
   font-weight: 700;
   line-height: calc(31 / 26);
-  letter-spacing: 3%;
   color: var(--white-color);
 }
 .footer-location {
@@ -174,7 +162,6 @@ body {
   font-size: 14px;
   font-weight: 400;
   line-height: calc(24 / 14);
-  letter-spacing: 3%;
 }
 .footer-contact-link {
   color: var(--footer-grey);
@@ -182,5 +169,4 @@ body {
   font-size: 14px;
   font-weight: 400;
   line-height: calc(24 / 14);
-  letter-spacing: 3%;
 }
